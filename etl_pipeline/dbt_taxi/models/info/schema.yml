@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: taxi_info
+    description: ""
+    columns:
+      - name: VendorID
+        description: ""
+      - name: dropoff_latitude
+        description: ""
+      - name: dropoff_longitude
+        description: ""
+      - name: pickup_longitude
+        description: ""
+      - name: pickup_latitude
+        description: ""
+      - name: pickup_weekday
+        description: ""
+      - name: pickup_hour
+        description: ""
+      - name: dropoff_weekday
+        description: ""
+      - name: dropoff_hour
+        description: ""
+      - name: passenger_count
+        description: ""
+      - name: trip_distance
+        description: ""
+      - name: rate_code_name
+        description: ""
+      - name: payment_type_name
+        description: ""
+      - name: fare_amount
+        description: ""
+      - name: extra
+        description: ""
+      - name: mta_tax
+        description: ""
+      - name: tip_amount
+        description: ""
+      - name: tolls_amount
+        description: ""
+      - name: improvement_surcharge
+        description: ""
+      - name: total_amount
+        description: ""

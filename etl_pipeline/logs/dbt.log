@@ -1,0 +1,27 @@
+
+
+============================== 2023-09-05 17:01:03.552014 | c2beb1da-0261-48c8-9854-4c7c361ce733 ==============================
+[0m17:01:03.552014 [info ] [MainThread]: Running with dbt=1.3.0
+[0m17:01:03.552014 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'D:\\UNIVERSITY\\yellow-taxis-etl-pipeline\\etl_pipeline', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:01:03.552014 [debug] [MainThread]: Tracking: tracking
+[0m17:01:03.552014 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BF84C8640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BF84C80A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BF84C8460>]}
+[0m17:01:28.038289 [debug] [MainThread]: Starter project path: C:\Users\Admin\anaconda3\lib\site-packages\dbt\include\starter_project
+[0m17:01:31.687336 [info ] [MainThread]: Profile dbt_taxi written to D:\UNIVERSITY\yellow-taxis-etl-pipeline\etl_pipeline\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m17:01:31.687336 [info ] [MainThread]: 
+Your new dbt project "dbt_taxi" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:01:31.687336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BF56CFB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BF56CF970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BF56CF700>]}
+[0m17:01:31.687336 [debug] [MainThread]: Flushing usage events

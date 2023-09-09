@@ -1,0 +1,12 @@
+dbt_taxi:
+  outputs:
+    dev:
+      dbname: postgres
+      host: localhost
+      password: admin123
+      port: 5433
+      schema: analytics
+      threads: 1
+      type: postgres
+      user: admin
+  target: dev

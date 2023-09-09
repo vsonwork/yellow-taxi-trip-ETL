@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: public
+
+    tables:
+      - name: trip_schedule
+      - name: pickup_location_lat_lon
+      - name: dropoff_location_lat_lon
