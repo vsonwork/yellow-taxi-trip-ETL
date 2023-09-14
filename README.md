@@ -69,6 +69,6 @@ The dataset used
 
 ![](./images/whole_things.png)
 
-## IV. Results - Visualize
+## IV. Result - Visualize
 
 ![](./images/dashboard.png)
